@@ -114,7 +114,27 @@ a.nav-style-li:active {
   height: 650px;
 }
 
+button {
+  border: 1px solid white;
+  background-color: transparent;
+  margin-top: 36px;
+  padding: 19px 38px;
+  border-radius: 0px;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: Oxygen, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 
+button:hover {
+   background: rgb(167, 168, 170, .7);
+   color: #D70026;
+   cursor: pointer;
+}
 
 
 
