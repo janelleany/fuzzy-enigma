@@ -57,9 +57,9 @@ nav {
 
 .nav-style-ul {
   list-style: none;
-  width: 700px;
+  width: 600px;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 33% 33% 33%;
   justify-items: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -86,9 +86,9 @@ a.nav-style-li:active {
   position: absolute;
   top: 105px;
   width: 100%;
-  height: 95vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .hero-image-section {
@@ -137,26 +137,6 @@ button:hover {
    font-weight: 900;
 }
 
-
-
-.logo-small {
-  grid-column: 1 / 2;
-  width: 100px;
-  height: 50px;
-  align-self: center; 
-}
-
-
-
-
-.vertical-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-
-
-
 .heading-text {
   color: #fff;
   text-transform: uppercase;
@@ -179,42 +159,37 @@ button:hover {
   animation: moveInRight 1s ease-out;
 }
 
-.content {
-  width: 1000px;
+.content-section {
+  display: flex;
+  flex-direction: column;
   margin: 12px;
 }
 
-.side-by-side-why, .side-by-side-believe, .side-by-side-do {
+.side-by-side {
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 212px;
+  width: 69vw;
+  min-height: 121px;
   margin: 12px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.side-by-side-why {
-  background-color: rgb(179, 207, 235);
-}
 
-.side-by-side-believe {
-  background-color: rgb(169, 223, 245);
-}
-
-.side-by-side-do {
-  background-color: rgb(225, 222, 238);
-}
-
-
-.left {
-  width: 50%;
+.side-by-side-title {
+  width: 30%;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  color: #D70026;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
 }
 
-.right {
-  width: 50%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+.side-by-side-body {
+  width: 70%;
+  padding: 1%;
+  color: #696b70;
 }
 
 footer {
@@ -222,6 +197,19 @@ footer {
   grid-template-columns: 25% 25% 25% 25%;
   background-color: #415359;
   color: white;
+}
+
+.logo-small {
+  grid-column: 1 / 2;
+  width: 100px;
+  height: 50px;
+  align-self: center; 
+}
+
+.vertical-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
