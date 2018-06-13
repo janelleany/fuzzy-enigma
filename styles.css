@@ -165,6 +165,15 @@ button:hover {
   margin: 12px;
 }
 
+.headline {
+  color: #D70026;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 12px;
+}
+
 .side-by-side {
   display: flex;
   justify-content: center;
