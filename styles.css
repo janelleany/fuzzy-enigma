@@ -97,7 +97,7 @@ a.nav-style-li:active {
 
 .hero-image-div {
   width: 100%;
-  height: 620px;
+  height: 600px;
 }
 
 .text-overlay {
@@ -111,7 +111,7 @@ a.nav-style-li:active {
   bottom: 0;
   left: 0;
   z-index: 212;
-  height: 620px;
+  height: 600px;
 }
 
 button {
@@ -171,7 +171,7 @@ button:hover {
   letter-spacing: 4px;
   font-size: 1.5em;
   font-weight: 700;
-  margin: 12px;
+  margin: 24px;
 }
 
 .side-by-side {
