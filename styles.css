@@ -9,7 +9,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Oxygen;
+  font-family: Oxygen, 'Sans-Serif';
   position: relative;
 }
 
@@ -97,7 +97,7 @@ a.nav-style-li:active {
 
 .hero-image-div {
   width: 100%;
-  height: 600px;
+  height: 620px;
 }
 
 .text-overlay {
@@ -111,7 +111,7 @@ a.nav-style-li:active {
   bottom: 0;
   left: 0;
   z-index: 212;
-  height: 600px;
+  height: 620px;
 }
 
 button {
@@ -171,7 +171,7 @@ button:hover {
   letter-spacing: 4px;
   font-size: 1.5em;
   font-weight: 700;
-  margin: 24px;
+  margin: 12px;
 }
 
 .side-by-side {
