@@ -311,7 +311,7 @@ button:hover {
 .card {
   height: 350px;
   width: 300px;
-  border: .1em solid #d70026;;
+  border: .24px solid #696b70;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -327,7 +327,7 @@ button:hover {
 
 .card-title {
   text-align: center;
-  color: #696b70;
+  color: #D70026;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 4px;
