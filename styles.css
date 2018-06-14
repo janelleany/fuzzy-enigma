@@ -50,6 +50,24 @@ img.hero {
   object-fit: cover;
 }
 
+img.founder-portrait {
+  width: 300px;
+  height: 333px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+img.hero-subpage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+img.card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
 nav {
   justify-self: end;
   align-self: center;
@@ -77,10 +95,11 @@ a.nav-style-li:hover {
   cursor: pointer;
 }
 
-a.nav-style-li:active {
-  border-bottom: #D70026;
+#active {
+  box-shadow: 0 5px 0 #D70026;
   color: #D70026;
 }
+
 
 .main {
   position: absolute;
@@ -113,6 +132,25 @@ a.nav-style-li:active {
   height: 600px;
 }
 
+.hero-image-div-subpage {
+  width: 100%;
+  height: 300px;
+}
+
+.text-overlay-subpage {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 212;
+  height: 300px;
+}
+
 button {
   border: 1px solid white;
   background: rgb(167, 168, 170, .5);
@@ -134,6 +172,10 @@ button:hover {
    color: #D70026;
    cursor: pointer;
    font-weight: 900;
+}
+
+.heading-div {
+  background-color: rgba(0,0,0,.4);
 }
 
 .heading-text {
@@ -160,10 +202,38 @@ button:hover {
   animation: moveInRight 1s ease-out;
 }
 
+.heading-text-subpage {
+  color: white;
+  text-align: center;
+  margin: 16px;
+}
+
+.heading-text-main-subpage {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  margin: 1.5rem;
+}
+
+.heading-text-sub-subpage {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin: 1.5rem;
+  
+}
+
 .content-section {
   display: flex;
   flex-direction: column;
   margin: 12px;
+}
+
+.content-section-horizontal {
+  display: flex;
+  margin: 12px;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .headline {
@@ -173,6 +243,15 @@ button:hover {
   font-size: 1.5em;
   font-weight: 700;
   margin: 12px;
+}
+
+.headline-subpage {
+  color: #D70026;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 36px;
 }
 
 .side-by-side {
@@ -202,6 +281,69 @@ button:hover {
   color: #696b70;
 }
 
+.side-by-side-subpage {
+  display: flex;
+  max-width: 1050px;
+  width: 75vw;
+  min-height: 121px;
+  margin: 48px;
+}
+
+.bio {
+  font-size: .9em;
+  margin-left: 36px;
+  margin-bottom: 11px;
+}
+
+.side-by-side-image {
+  display: flex;
+  width: 300px;
+}
+
+.side-by-side-bio {
+  width: 70%;
+  color: #696b70;
+  display: block;
+  letter-spacing: 6px;
+  
+}
+
+.card {
+  height: 350px;
+  width: 300px;
+  border: .1em solid #d70026;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+
+.card-image {
+  height: 75px;
+  width: 75px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  text-align: center;
+  color: #696b70;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin: 12px;
+}
+
+.card-body {
+  margin: 12px;
+}
+
+.card-text {
+  font-size: .9em;
+  font-weight: 100;
+  margin: 12px;
+}
+
 footer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -222,9 +364,14 @@ footer {
   flex-direction: column;
 }
 
-.icon {
+.social-media-icon {
   width: 24px;
   height: 24px;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
 }
 
 @keyframes moveInLeft {
