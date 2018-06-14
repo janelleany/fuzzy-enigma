@@ -383,6 +383,12 @@ footer {
   height: 75px;
 }
 
+.table-row {
+  border-bottom: 1px solid #D70026;
+  margin: 12px 0 24px;
+  
+}
+
 @keyframes moveInLeft {
   0% {
       opacity: 0;
