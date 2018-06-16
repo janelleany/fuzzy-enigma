@@ -95,10 +95,15 @@ a.nav-style-li:hover {
   cursor: pointer;
 }
 
+a:focus {
+  outline: #D70026 auto 2px;
+}
+
 #active {
   box-shadow: 0 5px 0 #D70026;
   color: #D70026;
 }
+
 
 
 .main {
@@ -172,6 +177,10 @@ button:hover {
    color: #D70026;
    cursor: pointer;
    font-weight: 900;
+}
+
+button:focus {
+  outline: #D70026 auto 2px;
 }
 
 .heading-div {
@@ -414,7 +423,8 @@ input {
 input::placeholder {
   color: #D70026;
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'Just Another Hand';
 }
 
 input:focus {
