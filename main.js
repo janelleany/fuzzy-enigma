@@ -1,13 +1,14 @@
 // === HTTP service ===
-var express = require('express');
-var app = express();
-var server = require('http').createServer(app);
+const express = require('express');
+const app = express();
+const path = require('path');
+const serveStatic = require('serve-static');
 
 // maps contents of /static folder to the site's root
-app.use(express.static(__dirname + '/static')); 
+app.use(serveStatic('./'));
 
 
 // start listening 
-server.listen(3000, function () {
+app.listen(3000, () => {
   console.log('Server is listening on http://localhost:3000');
 });
