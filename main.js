@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 const serveStatic = require('serve-static');
 
-// maps contents of /static folder to the site's root
+// maps contents of root directory to the site's root
 app.use(serveStatic('./'));
 
 

@@ -16,22 +16,24 @@
   <header>
 
     <div class='logo'>
-      <a href='./index.html'>
+      <a class='no-underline' href='./index.html'>
         <img src='./images/logos/logo_white_background.jpg' alt='Delaegis logo'>
       </a>
     </div>
 
     <nav>
       <ul class='nav-style-ul'>
-        <li><a href='founder.html' class='nav-style-li'>Founder</a></li>
-        <li><a href='services.html' class='nav-style-li'>What We Do</a></li>
-        <li><a id='active' href='contact.html' class='nav-style-li'>Contact</a></li>
+        <li><a href='founder.html' class='nav-style-li no-underline'>Founder</a></li>
+        <li><a href='services.html' class='nav-style-li no-underline'>What We Do</a></li>
+        <li><a id='active' href='contact.html' class='nav-style-li no-underline'>Contact</a></li>
       </ul>
     </nav>
 
   </header>
 
   <main class='main'>
+
+    <div class='header-placeholder'></div>
 
     <section class='hero-image-section'>
 
@@ -44,28 +46,47 @@
     <h3 class='subheadline-subpage'>We can do amazing shit for your business. You won't regret it.</h3>
     <section class='content-section-horizontal'>
 
-      
-      <div class='footer-left'>
-        I am the left side of the contact form, and someday I will be beautiful.
-      </div>
-
-      <div class="footer-right">
-        <h2>Let's Connect</h2>
+      <div class='form'>
+        <h2 style='margin-bottom: 24px;'>Send us a message</h2>
 
         <form action='' method='POST'>
           <div class="table-row"><label> Hello, my name is </label><input type="text" name='leadName' value="" size="40" class='form-input'  placeholder="your name" onfocus="this.placeholder=''" onblur="this.placeholder='your name'" required></div>
           <div class="table-row"><label> with </label><input type="text" name='leadCompany' value="" size="40" class='form-input'  placeholder="company name" onfocus="this.placeholder=''" onblur="this.placeholder='your company name'"></div>
           <div class="table-row"><label> and I would like to be contacted at </label><input type="email" name='leadEmail' value="" size="40" class='form-input'  placeholder="email address" onfocus="this.placeholder=''" onblur="this.placeholder='email address'" required></div>
           <div class="table-row"><label> regarding </label><input type="text" name='leadMessage' value="" size="40" class='form-input'  placeholder="tell us about your project" onfocus="this.placeholder=''" onblur="this.placeholder='a bit about your project'"></div>
-          <button type='submit'>Submit</button>
+          <button class='submit-button' type='submit'>Submit</button>
         </form>
         
         </div>  
+        <div class='form-sidebar'>
+          <h2>Or...</h2>
+          <div><button class='cta-button'>schedule a call now</button></div>
+        </div>
     </section>
 
   </main>
 
+  <footer>
+      <div class='left-footer'>
+        <h3 class='left-footer-headline'>Practice Areas</h3>
+        <ul class='vertical-list'>
+          <li><a class='underline' href='./services.html'>Business Law</a></li>
+          <li><a class='underline' href='./services.html'>Compliance</a></li>
+          <li><a class='underline' href='./services.html'>Media & Entertainment</a></li>
+        </ul>
+      </div>
   
+      <div class='links-footer'>
+        <p>© 2018 Delaegis LLC | <a href='./disclaimers.html#terms' class='underline'>Terms of Use</a> | <a href='./disclaimers.html#privacy' class='underline'>Privacy Policy</a> | <a href='./disclaimers.html#pricing' class='underline'>Pricing Disclaimer</a></p>
+        <p>* The choice of a lawyer is an important decision and should not be based solely upon advertisements.</p>
+        <p>Delaegis is proud to serve clients in GA, DC, IL, and NY.</p>
+      </div>
+  
+      <div class='contact-footer'>
+        <button class='footer-button'>Contact Us</button>
+      </div>
+  
+    </footer>
     
   <script src='main.js'></script>
 
