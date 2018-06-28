@@ -459,7 +459,8 @@ footer {
 .links-footer {
   flex-grow: 2;
   font-size: 17px;
-  line-height: 3.2rem;
+  line-height: 1.6rem;
+  align-self: flex-start;
 }
 
 .contact-footer {
