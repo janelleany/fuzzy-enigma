@@ -28,8 +28,9 @@ p {
 
 header {
   position: fixed;
-  display: grid;
-  grid-template-columns: 200px 1fr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 104px;
   padding-left: 24px;
@@ -39,8 +40,18 @@ header {
 }
 
 .logo {
-  width: 200px;
-  height: 99px;
+  width: 150px;
+  height: 74px;
+  flex-basis: 150px;
+}
+
+.mobile-nav {
+  display: none;
+  width: 36px;
+}
+
+
+.sidecar-nav {
   
 }
 
@@ -68,10 +79,7 @@ img.card-image {
   object-fit: cover;
 }
 
-nav {
-  justify-self: end;
-  align-self: center;
-}
+
 
 .nav-style-ul {
   list-style: none;
