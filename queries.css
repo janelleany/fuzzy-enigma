@@ -1,0 +1,36 @@
+/* Mobile small: from 0 to 320 */
+@media only screen and (max-width: 320px) {
+  .mobile-nav-button {
+    display: inline-block;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+/* Mobile medium: from 321 to 375 */
+@media only screen and (max-width: 375px) {
+  .mobile-nav-button {
+    display: inline-block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+}
+
+/* Mobile large: from 376 to 425 */
+@media only screen and (max-width: 425px) {
+  .mobile-nav-button {
+    display: inline-block;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+/* Tablet small: from 426 to 768 */
+@media only screen and (max-width: 768px) {
+
+}

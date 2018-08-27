@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="queries.css">
   <link rel="icon" href='favicon.ico' type="image/x-icon" />
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
   
@@ -17,17 +18,31 @@
 
     <div class='logo'>
       <a class='no-underline' href='./index.html'>
-        <img src='./images/logos/logo_white_background.jpg' alt='Delaegis logo'>
+        <img src='./images/logos/logo_mobile.jpeg' alt='Delaegis logo'>
       </a>
     </div>
 
-    <nav>
+    <nav class='main-nav'>
       <ul class='nav-style-ul'>
         <li><a id='active' href='index.html' class='nav-style-li no-underline'>Home</a></li>
         <li><a href='founder.html' class='nav-style-li no-underline'>Founder</a></li>
         <li><a href='services.html' class='nav-style-li no-underline'>What We Do</a></li>
         <li><a href='contact.html' class='nav-style-li no-underline'>Contact</a></li>
       </ul>
+    </nav>
+    <div class='mobile-nav-button'>
+      <a class='no-underline'><img class='menu-icon' src='./images/menu.svg'></a>
+    </div>
+
+    <nav class='sidecar-nav'>
+      <div>
+        <ul class='mobile-nav-style-ul'>
+          <li><a id='active' href='index.html' class='nav-style-li no-underline'>Home</a></li>
+          <li><a href='founder.html' class='nav-style-li no-underline'>Founder</a></li>
+          <li><a href='services.html' class='nav-style-li no-underline'>What We Do</a></li>
+          <li><a href='contact.html' class='nav-style-li no-underline'>Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
   </header>
@@ -71,7 +86,7 @@
         <h4 class='side-by-side-title'>Network</h4>
         <div class='side-by-side-body'>
           <p>We leverage not only our expertise but also our networks to help your venture thrive.</p>
-          <p>Our practice is affiliated with industry leaders in venture capital, web development and software engineering, the startup ecosystem, and media.</p>
+          <p>Our practice is affiliated with industry leaders in venture capital, web development, the startup ecosystem, and media.</p>
           <p>We believe in our clients' ventures as much as they do, so we spare no effort in fostering connections to help them prosper.</p>
         </div>
       </div>
@@ -79,7 +94,7 @@
       <div class='side-by-side'>
         <h4 class='side-by-side-title'>Approach</h4>
         <div class='side-by-side-body'>
-          <p>Our approach to serving our clients is bespoke and full-scale. [We believe our role is to fit our clients like a glove.] We support entrepreneurs using what we know best (the law) to protect and grow what you know best (your business).</p>
+          <p>Our approach to serving our clients is bespoke and full-scale. We support entrepreneurs using what we know best (the law) to protect and grow what you know best (your business).</p>
           <p>This philosophy requires broad experience with deep expertise, as well as a commitment to extensive effort. We work as hard as you do.</p>
         </div>
       </div>
@@ -118,5 +133,6 @@
     </div>
 
   </footer>
+  <script src='main.js'></script>
 </body>
 </html>
