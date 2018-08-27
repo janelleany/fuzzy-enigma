@@ -45,19 +45,29 @@ header {
   flex-basis: 150px;
 }
 
-.mobile-nav {
+.mobile-nav-button {
   display: none;
   width: 36px;
 }
 
 
 .sidecar-nav {
-  
+  position: relative;
+  left: 0px;
+  display: none;
+  width: 212px;
+  animation: slideIn 1s ease-in;
 }
 
 img.hero {
   width: 100%;
   height: 600px;
+  object-fit: cover;
+}
+
+img.menu-icon {
+  width: 100%;
+  height: 24px;
   object-fit: cover;
 }
 
@@ -97,7 +107,24 @@ img.card-image {
   color: #a7a8aa;
 }
 
+.mobile-nav-style-ul {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mobile-nav-style-ul > li {
+  font-size: .8em;
+  color: #a7a8aa;
+}
+
 a.nav-style-li:hover {
+  box-shadow: 0 5px 0 #D70026;
+  color: #D70026;
+  cursor: pointer;
+}
+
+a.mobile-nav-style-li:hover {
   box-shadow: 0 5px 0 #D70026;
   color: #D70026;
   cursor: pointer;
@@ -592,3 +619,12 @@ input:focus {
   }
 }
 
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100px);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
